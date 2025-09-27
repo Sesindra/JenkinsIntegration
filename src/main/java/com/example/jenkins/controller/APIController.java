@@ -12,6 +12,7 @@ public class APIController {
     @GetMapping("/call")
     public String call(){
         logger.info("Jenkins project is getting called");
+        logger.info("Jenkins Testing the automated pipeline");
         return "Jenkins project API's are getting called ";
 
     }
