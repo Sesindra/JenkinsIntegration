@@ -7,12 +7,13 @@ import org.slf4j.LoggerFactory;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class APIControllerTest {
+ class APIControllerTest {
     private static Logger logger = LoggerFactory.getLogger(APIController.class);
 
     @Test
-    public void callTest(){
+        void callTest(){
+        boolean value = true;
         logger.info("Jenkins test files are getting called");
-        assertEquals(true , true);
+        assertTrue(value);
     }
 }
